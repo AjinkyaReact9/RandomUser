@@ -1,0 +1,62 @@
+.card{
+    
+    position: relative;
+    padding: 20px 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    overflow: hidden;
+    text-align: center;
+    z-index: 5;
+    border-bottom: 50px;
+
+}
+
+
+.newFullName{
+    /* border: 2px solid black; */
+    height: 35px;
+    width: 363px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.newFullName1{
+    color: grey;
+    font-size: 25px;
+}
+
+.nameUser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.nameUser .material-symbols-outlined {
+    padding: 5px;
+    color: grey;
+    margin: 18px;
+    font-size: 45px;
+    background-image: url('img/card_icons.png');
+}
+    
+#img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 67px;
+    border: double lightgrey;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
+}
+
+.material-symbols-outlined:hover{
+    color: green;
+    font-size: 70px;
+    transition: 1s;
+}
+
